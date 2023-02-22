@@ -1,0 +1,25 @@
+#1. variants
+
+def SumTwoNumbers(a, b):
+    return a + b
+
+
+n1 = int(input('Choose number one: '))
+n2 = int(input('Choose number two: '))
+result = SumTwoNumbers(10, 20)
+print(result)
+
+#2. variants
+
+def PrintNiceShapes():
+  print('======')
+  print('-x+x-')
+  print('======')
+
+name = input('What is your name?: ')
+PrintNiceShapes()
+age = input('How old are you?: ')
+PrintNiceShapes()
+drink = input('What is your favourite drink?: ')
+PrintNiceShapes()
+print(f'Hello {name}! You are {age} y. o.\nYour favourite drink is {drink}')
